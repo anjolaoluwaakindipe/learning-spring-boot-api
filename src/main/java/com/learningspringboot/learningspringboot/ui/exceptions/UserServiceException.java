@@ -1,0 +1,11 @@
+package com.learningspringboot.learningspringboot.ui.exceptions;
+
+public class UserServiceException extends RuntimeException {
+
+    public UserServiceException(String message) {
+
+        super(message);
+
+    }
+
+}
